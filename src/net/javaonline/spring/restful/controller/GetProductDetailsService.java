@@ -14,7 +14,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @RestController
 public class GetProductDetailsService {
 	ObjectMapper mapper = new ObjectMapper();
-	@RequestMapping("/getProduct")
+	@RequestMapping("/getProduct") 
 	public @ResponseBody
 	ArrayList<ProductDetails> getProduct() {
 		GetProductDetailsDAO pdDao = new GetProductDetailsDAO();

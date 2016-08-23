@@ -28,7 +28,7 @@ public class GetProductDetailsDAO {
 	}
 
 	public static ArrayList<ProductDetails> getAllProducts() {
-
+ 
 		ArrayList<ProductDetails> list = new ArrayList<ProductDetails>();
 		Iterator entries = products.entrySet().iterator();
 		while (entries.hasNext()) {

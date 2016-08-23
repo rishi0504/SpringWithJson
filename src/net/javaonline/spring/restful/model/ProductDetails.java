@@ -10,7 +10,7 @@ public class ProductDetails {
     public ProductDetails(String itemcode,String description, float MRP,  float discount)
         {
             this.itemcode=itemcode;
- 
+  
             this.description=description;
  
             this.MRP=MRP;
